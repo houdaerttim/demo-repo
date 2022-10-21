@@ -7,3 +7,10 @@ Some description!
 
 Some more text
 
+```
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
