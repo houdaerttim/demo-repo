@@ -14,9 +14,30 @@ def evaluate_csv(file):
     #open alreadyavaluated dates
     print(file)
     #if date is already evaluated - skip
-    
-    df = pd.read_csv(file)
+    df = pd.read_csv(file, sep =";")
+    column_list = df.columns
+    #OWNER
+    #TABLE_NAME
+    #B
+    #L
+    #U
+    #COMP
+    #POS
+    #COLS
+    #TOTAL_GB
+    #TOTAL_%
+    #CUM_%
+    #PART.
+    #TABLE_GB
+    #TAB_TABSPACE
+    #IND.
+    #INDEX_GB
+    #IND_TABSPACE
+    #LOBS
+    #LOB_GB
+    print(df.dtypes)
     print("debug")
+    
     
     
     
